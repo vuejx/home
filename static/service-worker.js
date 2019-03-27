@@ -1,7 +1,6 @@
 // Initialize required variables - Cache Assets
 var shellCacheName = "vuejx_landing";
 var filesToCache = [
-  "./",
   "../index.html",
   "./js/vue.min.js",
   "./css/app.css",
