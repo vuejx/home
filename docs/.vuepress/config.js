@@ -202,6 +202,13 @@ module.exports = {
                 ]
               }
             ]
+          },
+          {
+            title: 'Đăng ký components',
+            collapsable: false,
+            children: [
+              '/guide/component/info.md'
+            ]
           }
         ]
       }
