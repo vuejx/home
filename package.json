@@ -1,0 +1,19 @@
+{
+  "name": "vue-jx",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^1.0.0-alpha.44"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.47",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0"
+  }
+}
