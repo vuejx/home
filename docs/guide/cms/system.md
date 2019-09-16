@@ -27,3 +27,17 @@
 | dict_item | Danh sách dữ liệu danh mục      | Danh sách dữ liệu danh mục |
 | tag | Danh sách thẻ nhẫn      | Thẻ nhãn sử dụng phân nhóm dữ liệu |
 | person | Danh sách người dùng      | Danh sách người dùng |
+
+## Đánh chỉ mục hệ thống
+
+<img src="/reindex_list.png" alt="structure">
+
+<img src="/reindex_edit.png" alt="structure">
+
++ Reindex: Đánh chỉ mục cho đối tượng hiện tại
++ ReindexAll: Đánh lại toàn bộ chỉ mục hệ thống
++ Start Date: Chọn ngày dữ liệu bắt đầu ( modifiedAt )
++ End Date: Chọn ngày dữ liệu cuối cùng ( modifiedAt )
++ Type: 
+    - Default: Chỉ đánh lại index dữ liệu ( không thay đổi mapping trường dữ liệu )
+    - Clean: Xoá index hiện tại và tạo lại index mới ( thay đổi mapping trường dữ liệu ). lựa chọn này không khả dụng với điều kiện ngày tháng Start và End date, đánh lại chỉ mục toàn bộ dữ liệu
