@@ -10,6 +10,7 @@
 <img src="/ext_install.png" alt="structure">
 
 + Sử dụng custom components theo thẻ tên đã đăng ký, ví dụ như sau:
+
 ```
 <vuejx-test></vuejx-test>
 ```
