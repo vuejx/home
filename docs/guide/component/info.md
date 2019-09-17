@@ -4,7 +4,12 @@
 
 <img src="/ext.png" alt="structure">
 
-+ Xây dựng components tuỳ chỉnh rồi đẩy lên github.
-+ cài đặt dependencies vào trong container client ( xem ảnh bên dưới )
++ Xây dựng custom components rồi đẩy lên github.
++ Cài đặt dependencies vào trong container client ( xem ảnh bên dưới )
 
 <img src="/ext_install.png" alt="structure">
+
++ Sử dụng custom components theo thẻ tên đã đăng ký, ví dụ như sau:
+```
+<vuejx-test></vuejx-test>
+```
